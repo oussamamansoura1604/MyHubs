@@ -4,11 +4,11 @@ import { Mail, Phone, MapPin, User, Briefcase } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const bioDetails = [
-  { icon: User, label: "Age", value: "28 Years" },
-  { icon: Briefcase, label: "Freelance", value: "Available" },
-  { icon: MapPin, label: "Address", value: "San Francisco, CA" },
-  { icon: Mail, label: "Email", value: "alex@example.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
+  { icon: Briefcase, label: "Experience", value: "8+ Years" },
+  { icon: User, label: "Specialization", value: "Branding & UI/UX" },
+  { icon: MapPin, label: "Location", value: "Available Worldwide" },
+  { icon: Mail, label: "Email", value: "oussama@example.com" },
+  { icon: Phone, label: "Phone", value: "+213 (XXX) XXX-XXXX" },
 ];
 
 export function About() {
@@ -29,10 +29,10 @@ export function About() {
           className="text-center mb-16"
         >
           <span className="text-primary font-medium tracking-wider uppercase">
-            Get to know me
+            About Me
           </span>
           <div className="relative inline-block mt-3">
-            <h2 className="text-4xl md:text-5xl relative z-10">About Me</h2>
+            <h2 className="text-4xl md:text-5xl relative z-10">Who I Am</h2>
             <div className="absolute -bottom-2 left-0 w-24 h-4 bg-[#FFD300] -z-10 rounded" />
           </div>
         </motion.div>
@@ -47,18 +47,26 @@ export function About() {
           >
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl">
-                I'm a Creative Designer & Developer
+                I'm a multidisciplinary designer specializing in branding, UI/UX, and digital communication.
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                With over 8 years of experience in digital design and
-                development, I specialize in creating seamless user experiences
-                that blend aesthetics with functionality. My approach combines
-                strategic thinking with meticulous attention to detail.
+                For the past years, I've helped businesses, creators, and startups translate complexity into clarity — visually, strategically, and structurally.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I believe in the power of minimalism and purpose-driven design
-                to solve complex problems and create meaningful connections
-                between brands and their audiences.
+                My creative journey began with content creation, where I crafted story-driven carousels in Algerian Darija and built a community of 16,000 people organically. That experience shaped my approach: design should tell a story, guide emotion, and create identity.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4 font-medium">
+                Today, I bring together:
+              </p>
+              <ul className="text-muted-foreground space-y-1 list-disc list-inside">
+                <li>Brand identity systems</li>
+                <li>UI/UX design</li>
+                <li>Social media design</li>
+                <li>Content strategy</li>
+                <li>Automation & digital workflows</li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                My academic foundation in medicinal chemistry brings precision and depth to my creative work — giving me a rare mix of analytical discipline and artistic direction.
               </p>
             </div>
 

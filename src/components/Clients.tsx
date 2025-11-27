@@ -2,14 +2,12 @@ import { motion, useInView } from "motion/react";
 import { useRef } from "react";
 
 const clients = [
-  { name: "TechCorp", logo: "TC" },
-  { name: "DesignHub", logo: "DH" },
-  { name: "StartupX", logo: "SX" },
-  { name: "CreativeStudio", logo: "CS" },
-  { name: "InnovateLab", logo: "IL" },
-  { name: "DigitalFlow", logo: "DF" },
-  { name: "BrandMasters", logo: "BM" },
-  { name: "FutureWorks", logo: "FW" },
+  { name: "Healthcare", logo: "HC" },
+  { name: "Delivery Services", logo: "DS" },
+  { name: "Event Organizers", logo: "EO" },
+  { name: "Fashion Brands", logo: "FB" },
+  { name: "Creators", logo: "CR" },
+  { name: "Startups", logo: "ST" },
 ];
 
 export function Clients() {

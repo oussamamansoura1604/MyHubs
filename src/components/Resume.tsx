@@ -3,68 +3,75 @@ import { useRef, useState, useEffect } from "react";
 import { Briefcase, GraduationCap, Award } from "lucide-react";
 
 const skills = [
-  { name: "UI/UX Design", level: 95 },
-  { name: "Web Development", level: 90 },
-  { name: "Motion Design", level: 85 },
-  { name: "Brand Identity", level: 88 },
-  { name: "Figma & Sketch", level: 92 },
-  { name: "React & Next.js", level: 87 },
+  { name: "Branding & Identity Design", level: 95 },
+  { name: "UI/UX & Interface Design", level: 90 },
+  { name: "Social Media Design Systems", level: 92 },
+  { name: "Creative Direction & Art Direction", level: 88 },
+  { name: "Design Automation & Digital Workflows", level: 85 },
+  { name: "Graphic Design (Print & Digital)", level: 93 },
 ];
 
 const experiences = [
   {
-    title: "Senior Product Designer",
-    company: "Tech Innovators Inc.",
-    year: "2022 - Present",
+    title: "Creative Designer & Digital Strategy Consultant",
+    company: "Freelance",
+    year: "2019 - Present",
     description:
-      "Leading design initiatives for enterprise SaaS products, managing a team of 4 designers, and establishing design systems.",
+      "Developed full brand identities for businesses in healthcare, fashion, delivery, and education. Designed cohesive visual systems, built high-engagement content frameworks with 10–15% average ER, and created UI/UX screens for apps and landing pages.",
   },
   {
-    title: "UX Designer",
-    company: "Creative Solutions Ltd.",
-    year: "2019 - 2022",
+    title: "Social Media Designer & UI/UX Contributor",
+    company: "Allo Jibli",
+    year: "Past Experience",
     description:
-      "Designed user-centered interfaces for mobile and web applications, conducted user research and usability testing.",
+      "Created the entire visual language for a multi-city delivery service. Designed content for multiple cities, built brand consistency across social media and app screens, and provided UI/UX improvements for their Android delivery app.",
   },
   {
-    title: "Junior Designer",
-    company: "Digital Studio",
-    year: "2017 - 2019",
+    title: "Designer for Scientific, Medical & Corporate Events",
+    company: "Various Organizations",
+    year: "Ongoing",
     description:
-      "Collaborated on various design projects, created visual assets, and supported senior designers in client deliverables.",
+      "Designed brochures, flyers, banners, and scientific presentation templates. Delivered complete event kits for medical congresses and collaborated with doctors and academic teams.",
+  },
+  {
+    title: "Academic Lecturer, Thesis Co-Supervisor & Educational Designer",
+    company: "Faculty of Medicine",
+    year: "Past Role",
+    description:
+      "Delivered practical and theoretical courses in medicinal chemistry. Guest lectured on advanced scientific topics, co-supervised a pharmacy thesis, and created high-quality educational materials.",
   },
 ];
 
 const education = [
   {
-    degree: "Master of Design",
-    institution: "Design Institute",
-    year: "2015 - 2017",
-    description: "Specialized in Digital Media and Interaction Design",
+    degree: "PharmD",
+    institution: "University of Sidi Bel Abbès",
+    year: "Completed",
+    description: "Doctor of Pharmacy degree",
   },
   {
-    degree: "Bachelor of Arts",
-    institution: "University of California",
-    year: "2011 - 2015",
-    description: "Major in Graphic Design and Visual Communication",
+    degree: "Residency in Medicinal Chemistry",
+    institution: "Faculty of Medicine Taleb Mourad",
+    year: "Completed",
+    description: "Analytical background in pharmaceutical chemistry",
   },
 ];
 
 const awards = [
   {
-    title: "Best UI Design Award",
-    organization: "Awwwards",
-    year: "2023",
+    title: "Brand Systems Excellence",
+    organization: "Creative Work",
+    year: "Multiple",
   },
   {
-    title: "Innovation in Design",
-    organization: "Design Week",
-    year: "2022",
+    title: "High-Engagement Content",
+    organization: "Social Media",
+    year: "10-15% ER",
   },
   {
-    title: "Excellence in Digital",
-    organization: "Creative Awards",
-    year: "2021",
+    title: "Strategic Digital Solutions",
+    organization: "Client Work",
+    year: "Ongoing",
   },
 ];
 

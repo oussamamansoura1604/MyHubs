@@ -5,39 +5,30 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO, TechStart",
+    name: "Delivery Services Client",
+    role: "Client",
     image:
       "https://images.unsplash.com/photo-1531299983330-093763e1d963?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHBlcnNvbnxlbnwxfHx8fDE3NjM3NTUxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     content:
-      "Working with Alex was an absolute pleasure. Their attention to detail and creative vision transformed our brand identity completely. The results exceeded all expectations.",
+      "Oussama transformed our brand into something structured, memorable, and modern.",
     rating: 5,
   },
   {
-    name: "Michael Chen",
-    role: "Product Manager, InnovateCo",
+    name: "Healthcare Client",
+    role: "Client",
     image:
       "https://images.unsplash.com/photo-1531299983330-093763e1d963?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHBlcnNvbnxlbnwxfHx8fDE3NjM3NTUxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     content:
-      "Alex's ability to blend aesthetics with functionality is remarkable. Our app's user experience improved dramatically, and customer satisfaction scores went through the roof.",
+      "His designs feel intentional and aligned with who we are. He thinks like a strategist.",
     rating: 5,
   },
   {
-    name: "Emily Rodriguez",
-    role: "Founder, Creative Hub",
+    name: "Corporate Client",
+    role: "Client",
     image:
       "https://images.unsplash.com/photo-1531299983330-093763e1d963?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHBlcnNvbnxlbnwxfHx8fDE3NjM3NTUxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     content:
-      "Professional, responsive, and incredibly talented. Alex delivered a website that perfectly captures our brand essence. I couldn't be happier with the collaboration.",
-    rating: 5,
-  },
-  {
-    name: "David Park",
-    role: "Marketing Director, BrandLab",
-    image:
-      "https://images.unsplash.com/photo-1531299983330-093763e1d963?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHBlcnNvbnxlbnwxfHx8fDE3NjM3NTUxMTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    content:
-      "From concept to execution, Alex maintained clear communication and delivered exceptional work. The design elevated our entire digital presence.",
+      "Reliable, creative, and unbelievably precise. One of the best collaborators we've had.",
     rating: 5,
   },
 ];
@@ -135,10 +126,10 @@ export function Testimonials() {
           className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 pt-16 border-t border-border"
         >
           {[
-            { number: "150+", label: "Projects Completed" },
-            { number: "50+", label: "Happy Clients" },
-            { number: "8+", label: "Years Experience" },
-            { number: "25+", label: "Awards Won" },
+            { number: "180+", label: "Designs Completed" },
+            { number: "50+", label: "Clients Served" },
+            { number: "8+", label: "Years of Creative Experience" },
+            { number: "25+", label: "Brand & Digital Systems Built" },
           ].map((stat, index) => (
             <motion.div
               key={stat.label}

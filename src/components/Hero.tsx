@@ -81,7 +81,7 @@ export function Hero() {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-5xl md:text-6xl lg:text-7xl tracking-tight"
           >
-            I'm <span className="text-primary">Alex Morgan</span>
+            Hi, I'm <span className="text-primary">Oussama Mansoura</span>
           </motion.h1>
 
           <motion.p
@@ -90,7 +90,7 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-xl md:text-2xl text-muted-foreground font-light"
           >
-            Creative Designer & Developer
+            Brand Identity Designer • UI/UX Designer • Digital Strategy Architect
           </motion.p>
 
           <motion.p
@@ -99,8 +99,7 @@ export function Hero() {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-muted-foreground max-w-lg leading-relaxed"
           >
-            Crafting beautiful digital experiences with a focus on minimal
-            design, elegant interactions, and user-centered solutions.
+            I build brands, design intuitive interfaces, and craft digital systems that elevate how businesses communicate. My work blends structured thinking, storytelling, and clean aesthetics to create visual identities that feel purposeful, modern, and memorable.
           </motion.p>
 
           <motion.div
@@ -113,16 +112,16 @@ export function Hero() {
               size="lg"
               className="rounded-full px-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
+              <Mail className="mr-2 h-4 w-4" />
+              Contact Me
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="rounded-full px-8 hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
             >
-              <Mail className="mr-2 h-4 w-4" />
-              Contact Me
+              <Download className="mr-2 h-4 w-4" />
+              Explore My Work
             </Button>
           </motion.div>
         </motion.div>

@@ -7,21 +7,21 @@ import { Textarea } from "./ui/textarea";
 
 const contactInfo = [
   {
-    icon: Phone,
-    label: "Phone",
-    value: "+1 (555) 123-4567",
-    link: "tel:+15551234567",
-  },
-  {
     icon: Mail,
     label: "Email",
-    value: "alex@example.com",
-    link: "mailto:alex@example.com",
+    value: "oussama@example.com",
+    link: "mailto:oussama@example.com",
   },
   {
     icon: MapPin,
-    label: "Address",
-    value: "San Francisco, CA 94102",
+    label: "Available",
+    value: "Worldwide",
+    link: "#",
+  },
+  {
+    icon: Phone,
+    label: "Response Time",
+    value: "Within 24 hours",
     link: "#",
   },
 ];
@@ -65,14 +65,14 @@ export function Contact() {
           className="text-center mb-16"
         >
           <span className="text-primary font-medium tracking-wider uppercase">
-            Get in Touch
+            Contact
           </span>
           <div className="relative inline-block mt-3">
-            <h2 className="text-4xl md:text-5xl relative z-10">Contact Me</h2>
+            <h2 className="text-4xl md:text-5xl relative z-10">Let's Create Something Powerful</h2>
             <div className="absolute -bottom-2 right-0 w-36 h-4 bg-[#FFD300] -z-10 rounded" />
           </div>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can work together.
+            Whether you're building a brand, launching a digital product, or needing clean, strategic design — I can help you build visuals and systems that elevate your identity.
           </p>
         </motion.div>
 
@@ -85,11 +85,9 @@ export function Contact() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl md:text-3xl mb-6">Let's Talk</h3>
+              <h3 className="text-2xl md:text-3xl mb-6">Get in Touch</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I'm always open to discussing new projects, creative ideas, or
-                opportunities to be part of your vision. Feel free to reach out
-                through any of the channels below.
+                Available Worldwide | Replies within 24 hours | Accepting New Projects for 2025
               </p>
             </div>
 

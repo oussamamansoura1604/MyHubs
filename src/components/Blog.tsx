@@ -5,25 +5,25 @@ import { Button } from "./ui/button";
 
 const blogPosts = [
   {
-    title: "The Future of Minimalist Web Design",
-    date: "November 15, 2024",
+    title: "Designing Brands With Personality",
+    date: "Latest",
     excerpt:
-      "Exploring how minimalism continues to shape the future of digital experiences and why less is often more in modern web design.",
-    category: "Design Trends",
+      "How intentional storytelling creates memorable identities.",
+    category: "Branding",
   },
   {
-    title: "Building Accessible User Interfaces",
-    date: "November 8, 2024",
+    title: "Modern UI/UX Essentials",
+    date: "Latest",
     excerpt:
-      "A comprehensive guide to creating inclusive digital products that work for everyone, regardless of their abilities or limitations.",
-    category: "Development",
+      "The principles behind smooth, intuitive digital experiences.",
+    category: "UI/UX",
   },
   {
-    title: "The Art of Smooth Micro-Interactions",
-    date: "October 28, 2024",
+    title: "Automation for Designers",
+    date: "Latest",
     excerpt:
-      "How subtle animations and transitions can dramatically improve user experience and create memorable digital products.",
-    category: "UX Design",
+      "Building smart systems that save time and scale creativity.",
+    category: "Strategy",
   },
 ];
 

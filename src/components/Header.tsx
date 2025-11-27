@@ -49,7 +49,7 @@ export function Header() {
               transition={{ duration: 0.5 }}
               className="text-2xl font-semibold"
             >
-              Alex<span className="text-primary">.</span>
+              Oussama<span className="text-primary">.</span>
             </motion.a>
 
             {/* Desktop Navigation */}

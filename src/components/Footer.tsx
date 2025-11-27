@@ -51,12 +51,10 @@ export function Footer() {
               className="lg:col-span-2"
             >
               <h3 className="text-3xl mb-4">
-                Alex<span className="text-primary">.</span>
+                Oussama<span className="text-primary">.</span>
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6 max-w-sm">
-                Creating beautiful digital experiences with a focus on minimal
-                design and elegant interactions. Let's build something amazing
-                together.
+                I design brands, build digital experiences, and create systems that help businesses communicate with clarity and confidence. My work blends creativity, structure, and storytelling to deliver visuals that last.
               </p>
               
               {/* Newsletter */}
@@ -76,15 +74,15 @@ export function Footer() {
               <div className="mt-6 space-y-3">
                 <div className="flex items-center gap-3 text-muted-foreground text-sm">
                   <Mail className="h-4 w-4" />
-                  <span>alex@example.com</span>
-                </div>
-                <div className="flex items-center gap-3 text-muted-foreground text-sm">
-                  <Phone className="h-4 w-4" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>oussama@example.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground text-sm">
                   <MapPin className="h-4 w-4" />
-                  <span>San Francisco, CA 94102</span>
+                  <span>Available Worldwide</span>
+                </div>
+                <div className="flex items-center gap-3 text-muted-foreground text-sm">
+                  <Phone className="h-4 w-4" />
+                  <span>Replies within 24 hours</span>
                 </div>
               </div>
             </motion.div>
@@ -169,9 +167,7 @@ export function Footer() {
               viewport={{ once: true }}
               className="text-muted-foreground text-sm flex items-center gap-2"
             >
-              © {new Date().getFullYear()} Alex Morgan. Made with{" "}
-              <Heart className="h-3.5 w-3.5 text-primary fill-primary" /> in San
-              Francisco
+              © {new Date().getFullYear()} Oussama Mansoura. All Rights Reserved — Design • Strategy • Digital Systems
             </motion.p>
 
             {/* Social Links */}
